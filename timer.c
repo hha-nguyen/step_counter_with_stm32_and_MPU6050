@@ -6,7 +6,7 @@
 #include "lcd.h"
 #include "systick.h"
 
-#define THRESHOLD 0.244
+#define THRESHOLD 15000
 extern uint8_t mode;
 extern uint16_t step_count;
 uint8_t blink = 0;
